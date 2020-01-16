@@ -8,4 +8,6 @@ external val ReactPlayer: RClass<ReactPlayerProps>
 
 external interface ReactPlayerProps : RProps {
     var url: String
+    var width: String
+    var height: String
 }

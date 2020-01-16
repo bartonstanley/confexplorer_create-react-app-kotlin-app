@@ -18,11 +18,11 @@ interface VideoPlayerProps: RProps {
 class VideoPlayer(props: VideoPlayerProps): RComponent<VideoPlayerProps, RState>(props) {
     override fun RBuilder.render() {
         styledDiv {
-            css {
+            /* css {
                 position = Position.absolute
                 top = 10.px
                 right = 10.px
-            }
+            } */
             h3 {
                 +"${props.video.speaker}: ${props.video.title}"
             }
@@ -49,10 +49,13 @@ class VideoPlayer(props: VideoPlayerProps): RComponent<VideoPlayerProps, RState>
                     +"Mark as unwatched"
                 }
             }
+            ReactPlayer {
+                attrs.url = props.video.videoUrl
+            }
             styledDiv {
-                css {
+                 css {
                     display = Display.flex
-                    marginBottom = 10.px
+                    marginTop = 10.px
                 }
                 EmailShareButton {
                     attrs.url = props.video.videoUrl
@@ -75,9 +78,6 @@ class VideoPlayer(props: VideoPlayerProps): RComponent<VideoPlayerProps, RState>
                         attrs.round = true
                     }
                 }
-            }
-            ReactPlayer {
-                attrs.url = props.video.videoUrl
             }
         }
     }

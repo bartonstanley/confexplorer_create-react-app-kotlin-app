@@ -22,6 +22,28 @@ class App: RComponent<RProps, AppState>() {
             +"KotlinConf Explorer"
         }
         div {
+            state.currentVideo?.let { currentVideo ->
+                videoPlayer {
+                    video = currentVideo
+                    unwatchedVideo = currentVideo in state.unwatchedVideos
+                    onWatchedButtonPressed = {
+                        if(video in state.unwatchedVideos) {
+                            setState {
+                                unwatchedVideos -= video
+                                watchedVideos += video
+                            }
+                        }
+                        else {
+                            setState {
+                                watchedVideos -= video
+                                unwatchedVideos += video
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        div {
             h3 {
                 +"Videos to watch"
             }
@@ -43,28 +65,6 @@ class App: RComponent<RProps, AppState>() {
                 onSelectVideo = { video ->
                     setState {
                         currentVideo = video
-                    }
-                }
-            }
-        }
-        div {
-            state.currentVideo?.let { currentVideo ->
-                videoPlayer {
-                    video = currentVideo
-                    unwatchedVideo = currentVideo in state.unwatchedVideos
-                    onWatchedButtonPressed = {
-                        if(video in state.unwatchedVideos) {
-                            setState {
-                                unwatchedVideos -= video
-                                watchedVideos += video
-                            }
-                        }
-                        else {
-                            setState {
-                                watchedVideos -= video
-                                unwatchedVideos += video
-                            }
-                        }
                     }
                 }
             }
