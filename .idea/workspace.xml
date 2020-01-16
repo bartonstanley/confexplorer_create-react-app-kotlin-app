@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3312a53-02c7-4a10-b2cf-233eacedd9ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Script" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UIwwHn3wh0WCDjiUo54DlN6Eu6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3312a53-02c7-4a10-b2cf-233eacedd9ae" name="Default Changelist" comment="" />
+      <created>1575057654146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575057654146</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="197" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575665151258">
+      <screen x="0" y="22" width="1440" height="878" />
+    </state>
+    <state x="2023" y="233" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.22.1440.878/1440.22.1920.1058@1440.22.1920.1058" timestamp="1575297169058" />
+    <state x="437" y="197" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.22.1440.878@0.22.1440.878" timestamp="1575665151258" />
+    <state x="1718" y="725" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575067877487">
+      <screen x="1440" y="22" width="1080" height="1898" />
+    </state>
+    <state x="1718" y="725" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.878/1440.22.1080.1898@1440.22.1080.1898" timestamp="1575067877487" />
+    <state x="1527" y="350" key="SettingsEditor" timestamp="1575305702505">
+      <screen x="1440" y="22" width="1920" height="1058" />
+    </state>
+    <state x="1489" y="610" key="SettingsEditor/0.22.1440.878/1440.22.1080.1898@1440.22.1080.1898" timestamp="1575057870784" />
+    <state x="1527" y="350" key="SettingsEditor/0.22.1440.878/1440.22.1920.1058@1440.22.1920.1058" timestamp="1575305702505" />
+    <state x="1710" y="710" width="540" height="524" key="StructurePopup" timestamp="1575059920429">
+      <screen x="1440" y="22" width="1080" height="1898" />
+    </state>
+    <state x="1710" y="710" width="540" height="524" key="StructurePopup/0.22.1440.878/1440.22.1080.1898@1440.22.1080.1898" timestamp="1575059920429" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1579037129484">
+      <screen x="1440" y="22" width="1920" height="1058" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.22.1440.878/1440.22.1920.1058@1440.22.1920.1058" timestamp="1579037129484" />
+    <state x="424" y="201" key="com.intellij.ide.util.TipDialog" timestamp="1579034102940">
+      <screen x="0" y="22" width="1440" height="878" />
+    </state>
+    <state x="1758" y="410" key="com.intellij.ide.util.TipDialog/0.22.1440.878/1440.22.1080.1898@1440.22.1080.1898" timestamp="1575057657952" />
+    <state x="424" y="201" key="com.intellij.ide.util.TipDialog/0.22.1440.878/1440.22.1920.1058@0.22.1440.878" timestamp="1579034102940" />
+    <state x="1804" y="270" width="1192" height="377" key="search.everywhere.popup" timestamp="1579121073298">
+      <screen x="1440" y="22" width="1920" height="1058" />
+    </state>
+    <state x="1645" y="467" width="670" height="676" key="search.everywhere.popup/0.22.1440.878/1440.22.1080.1898@1440.22.1080.1898" timestamp="1575067622565" />
+    <state x="1804" y="270" width="1192" height="377" key="search.everywhere.popup/0.22.1440.878/1440.22.1920.1058@1440.22.1920.1058" timestamp="1579121073298" />
+    <state x="273" y="228" width="894" height="313" key="search.everywhere.popup/0.22.1440.878@0.22.1440.878" timestamp="1579105709547" />
+  </component>
+</project>
